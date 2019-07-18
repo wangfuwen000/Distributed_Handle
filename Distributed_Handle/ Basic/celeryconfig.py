@@ -10,8 +10,8 @@ from kombu import Queue
 # broker_url = 'amqp://guest@localhost//'
 BROKER_URL='amqp://guest@localhost//'
 # 指定结果的接受地址
-# celery_result_backend = 'redis://redis.test-10.sinnet.huobiidc.com/3'
-CELERY_RESULT_BACKEND='redis://redis.test-10.sinnet.huobiidc.com/3'
+# celery_result_backend = '******‘
+CELERY_RESULT_BACKEND='*******‘
 # CELERY_TASK_SERIALIZER = 'msgpack'
 # # 指定结果序列化方式
 # CELERY_RESULT_SERIALIZER = 'msgpack'
