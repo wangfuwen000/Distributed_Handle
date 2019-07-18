@@ -11,7 +11,7 @@ from kombu import Queue
 BROKER_URL='amqp://guest@localhost//'
 # 指定结果的接受地址
 # celery_result_backend = '******‘
-CELERY_RESULT_BACKEND='*******‘
+CELERY_RESULT_BACKEND=‘’
 # CELERY_TASK_SERIALIZER = 'msgpack'
 # # 指定结果序列化方式
 # CELERY_RESULT_SERIALIZER = 'msgpack'
