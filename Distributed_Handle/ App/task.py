@@ -13,13 +13,6 @@ from Basic.Opera_Task import Asyncio_Task
 # app = Celery('task',broker='amqp://guest@localhost//')
 app=Celery('task')
 app.config_from_object(conf)
-
-# bootstrap_servers='kafka2-test1.sinnet.huobiidc.com:9092'
-# topic_consumer='test-10_match_result_btcusdt'
-# topic_producer='test-10_match_action'
-# group_id='test1'
-
-# ok = Opera_Kafka('kafka2-test1.sinnet.huobiidc.com:9092', topic_consumer, group_id)
 oa=Asyncio_Task()
 @app.task
 def func():
