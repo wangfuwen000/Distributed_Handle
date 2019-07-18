@@ -1,0 +1,3 @@
+# Distributed_Handle
+通过kafka分布式读写数据
+通过对kafka topic的订阅和异步io读写，将task通过分布式任务调度分配给不同的workers处理，完成数据的分布式读写
